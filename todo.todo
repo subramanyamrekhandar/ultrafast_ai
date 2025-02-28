@@ -1,0 +1,15 @@
+ultrafastai-sdk/
+│── ultrafastai/          # SDK package
+│   ├── __init__.py       # Init file
+│   ├── client.py         # Main SDK logic
+│   ├── utils.py          # Helper functions (e.g., token tracking, rate-limiting)
+│── examples/             # Usage examples
+│   ├── text_generation.py
+│   ├── batch_inference.py
+│── tests/                # Unit tests
+│   ├── test_client.py
+│── setup.py              # Packaging configuration
+│── README.md             # Documentation
+│── requirements.txt      # Dependencies
+│── LICENSE               # Open-source license (MIT recommended)
+│── .gitignore            # Ignore unnecessary files
